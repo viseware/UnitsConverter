@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Gizmokit</AssemblyName>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageId>Viseware.Gizmokit</PackageId>
+    <Company>Viseware</Company>
+    <Authors>Umair</Authors>
+    <Description>Unit converter</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RootNamespace>Viseware.Gizmokit.Convert</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>E:\Viseware\Apps\Gizmokit\Libraries\Converter\Gizmokit.Converter\Gizmokit.Converter\Gizmokit.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>

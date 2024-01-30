@@ -1,0 +1,445 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Gizmokit</name>
+    </assembly>
+    <members>
+        <member name="M:Gizmokit.Converter.ConvertArea.#ctor(System.Double,Gizmokit.Converter.Units.Area)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="area">Type of Unit</param>
+        </member>
+        <member name="M:Gizmokit.Converter.ConvertArea.#ctor(System.Double,System.Int32)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="area">index of Unit</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Gizmokit.Converter.ConvertArea.ConvertTo(Gizmokit.Converter.Units.Area)" -->
+        <!-- Badly formed XML comment ignored for member "M:Gizmokit.Converter.ConvertArea.ConvertTo(System.Int32)" -->
+        <member name="M:Gizmokit.Converter.ConvertArea.ConvertUnit(Gizmokit.Converter.Units.Area)">
+            <summary>
+            Convert the value to given unit
+            </summary>
+            <param name="convertTo">unit toconvert to</param>
+            <returns>converted value</returns>
+        </member>
+        <member name="M:Gizmokit.Converter.ConvertData.#ctor(System.Double,Gizmokit.Converter.Units.Data)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="data">Type of Unit</param>
+        </member>
+        <member name="M:Gizmokit.Converter.ConvertData.#ctor(System.Double,System.Int32)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="data">index of Unit</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Gizmokit.Converter.ConvertData.ConvertTo(Gizmokit.Converter.Units.Data)" -->
+        <!-- Badly formed XML comment ignored for member "M:Gizmokit.Converter.ConvertData.ConvertTo(System.Int32)" -->
+        <member name="M:Gizmokit.Converter.ConvertData.ConvertUnit(Gizmokit.Converter.Units.Data)">
+            <summary>
+            Convert the value to given unit
+            </summary>
+            <param name="convertTo">unit toconvert to</param>
+            <returns>converted value</returns>
+        </member>
+        <member name="T:Gizmokit.Converter.Units.Temperature">
+            <summary>
+            temparature units
+            </summary>
+        </member>
+        <member name="T:Gizmokit.Converter.Units.Time">
+            <summary>
+            time units
+            </summary>
+        </member>
+        <member name="T:Gizmokit.Converter.Units.Speed">
+            <summary>
+            speed units
+            </summary>
+        </member>
+        <member name="T:Gizmokit.Converter.Units.Length">
+            <summary>
+            lenght units
+            </summary>
+        </member>
+        <member name="T:Gizmokit.Converter.Units.Area">
+            <summary>
+            area units
+            </summary>
+        </member>
+        <member name="T:Gizmokit.Converter.Units.Weight">
+            <summary>
+            weight units
+            </summary>
+        </member>
+        <member name="T:Gizmokit.Converter.Units.Volume">
+            <summary>
+            volume units
+            </summary>
+        </member>
+        <member name="T:Gizmokit.Converter.Units.Force">
+            <summary>
+            Force units
+            </summary>
+        </member>
+        <member name="T:Gizmokit.Converter.Units.Fuel">
+            <summary>
+            Fuel units
+            </summary>
+        </member>
+        <member name="T:Gizmokit.Converter.Units.Pressure">
+            <summary>
+            Pressure units
+            </summary>
+        </member>
+        <member name="T:Gizmokit.Converter.Units.Data">
+            <summary>
+            Data units
+            </summary>
+        </member>
+        <member name="T:Gizmokit.Converter.Units.Energy">
+            <summary>
+            Energy units
+            </summary>
+        </member>
+        <member name="T:Gizmokit.Converter.Units.Power">
+            <summary>
+            Power units
+            </summary>
+        </member>
+        <member name="F:Gizmokit.Converter.Units.Units.temperatureUnits">
+            <summary>
+            List of all avalible temparature units
+            </summary>
+        </member>
+        <member name="F:Gizmokit.Converter.Units.Units.timeUnits">
+            <summary>
+            List of all avalible time units
+            </summary>
+        </member>
+        <member name="F:Gizmokit.Converter.Units.Units.speedUnits">
+            <summary>
+            List of all avalible speed units
+            </summary>
+        </member>
+        <member name="F:Gizmokit.Converter.Units.Units.lenghtUnits">
+            <summary>
+            List of all avalible lenght units
+            </summary>
+        </member>
+        <member name="F:Gizmokit.Converter.Units.Units.areaUnits">
+            <summary>
+            List of all avalible area units
+            </summary>
+        </member>
+        <member name="F:Gizmokit.Converter.Units.Units.weightUnits">
+            <summary>
+            List of all avalible weight units
+            </summary>
+        </member>
+        <member name="F:Gizmokit.Converter.Units.Units.volumeUnits">
+            <summary>
+            List of all avalible volume units
+            </summary>
+        </member>
+        <member name="F:Gizmokit.Converter.Units.Units.forceUnits">
+            <summary>
+            List of all avalible force units
+            </summary>
+        </member>
+        <member name="F:Gizmokit.Converter.Units.Units.fuelUnits">
+            <summary>
+            List of all avalible fuel units
+            </summary>
+        </member>
+        <member name="F:Gizmokit.Converter.Units.Units.pressureUnits">
+            <summary>
+            List of all avalible pressure units
+            </summary>
+        </member>
+        <member name="F:Gizmokit.Converter.Units.Units.dataUnits">
+            <summary>
+            List of all avalible data units
+            </summary>
+        </member>
+        <member name="F:Gizmokit.Converter.Units.Units.energyUnits">
+            <summary>
+            List of all avalible energy units
+            </summary>
+        </member>
+        <member name="F:Gizmokit.Converter.Units.Units.powerUnits">
+            <summary>
+            List of all avalible power units
+            </summary>
+        </member>
+        <member name="M:Gizmokit.Converter.Units.Units.GetIndexOfList(System.Collections.Generic.List{System.String},System.String)">
+            <summary>
+            Gets the Index value of a unit from the list
+            </summary>
+            <param name="list">list to use to fetch the index from</param>
+            <param name="selected">Inupt unit to fetch the index of</param>
+            <returns>Index of the given unit</returns>
+        </member>
+        <member name="M:viseware.GizmokitConvert.ConvertEnergy.#ctor(System.Double,Gizmokit.Converter.Units.Energy)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="energy">Type of Unit</param>
+        </member>
+        <member name="M:viseware.GizmokitConvert.ConvertEnergy.#ctor(System.Double,System.Int32)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="energy">index of Unit</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:viseware.GizmokitConvert.ConvertEnergy.ConvertTo(Gizmokit.Converter.Units.Energy)" -->
+        <!-- Badly formed XML comment ignored for member "M:viseware.GizmokitConvert.ConvertEnergy.ConvertTo(System.Int32)" -->
+        <member name="M:viseware.GizmokitConvert.ConvertEnergy.ConvertUnit(Gizmokit.Converter.Units.Energy)">
+            <summary>
+            Convert the value to given unit
+            </summary>
+            <param name="convertTo">unit toconvert to</param>
+            <returns>converted value</returns>
+        </member>
+        <member name="M:viseware.GizmokitConvert.ConvertForce.#ctor(System.Double,Gizmokit.Converter.Units.Force)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="force">Type of Unit</param>
+        </member>
+        <member name="M:viseware.GizmokitConvert.ConvertForce.#ctor(System.Double,System.Int32)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="force">index of Unit</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:viseware.GizmokitConvert.ConvertForce.ConvertTo(Gizmokit.Converter.Units.Force)" -->
+        <!-- Badly formed XML comment ignored for member "M:viseware.GizmokitConvert.ConvertForce.ConvertTo(System.Int32)" -->
+        <member name="M:viseware.GizmokitConvert.ConvertForce.ConvertUnit(Gizmokit.Converter.Units.Force)">
+            <summary>
+            Convert the value to given unit
+            </summary>
+            <param name="convertTo">unit toconvert to</param>
+            <returns>converted value</returns>
+        </member>
+        <member name="M:viseware.GizmokitConvert.ConvertFuel.#ctor(System.Double,Gizmokit.Converter.Units.Fuel)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="fuel">Type of Unit</param>
+        </member>
+        <member name="M:viseware.GizmokitConvert.ConvertFuel.#ctor(System.Double,System.Int32)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="fuel">index of Unit</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:viseware.GizmokitConvert.ConvertFuel.ConvertTo(Gizmokit.Converter.Units.Fuel)" -->
+        <!-- Badly formed XML comment ignored for member "M:viseware.GizmokitConvert.ConvertFuel.ConvertTo(System.Int32)" -->
+        <member name="M:viseware.GizmokitConvert.ConvertFuel.ConvertUnit(Gizmokit.Converter.Units.Fuel)">
+            <summary>
+            Convert the value to given unit
+            </summary>
+            <param name="convertTo">unit toconvert to</param>
+            <returns>converted value</returns>
+        </member>
+        <member name="M:viseware.GizmokitConvert.ConvertLength.#ctor(System.Double,Gizmokit.Converter.Units.Length)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="length">Type of Unit</param>
+        </member>
+        <member name="M:viseware.GizmokitConvert.ConvertLength.#ctor(System.Double,System.Int32)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="length">index of Unit</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:viseware.GizmokitConvert.ConvertLength.ConvertTo(Gizmokit.Converter.Units.Length)" -->
+        <!-- Badly formed XML comment ignored for member "M:viseware.GizmokitConvert.ConvertLength.ConvertTo(System.Int32)" -->
+        <member name="M:viseware.GizmokitConvert.ConvertLength.ConvertUnit(Gizmokit.Converter.Units.Length)">
+            <summary>
+            Convert the value to given unit
+            </summary>
+            <param name="convertTo">unit toconvert to</param>
+            <returns>converted value</returns>
+        </member>
+        <member name="M:viseware.GizmokitConvert.ConvertPower.#ctor(System.Double,Gizmokit.Converter.Units.Power)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="power">Type of Unit</param>
+        </member>
+        <member name="M:viseware.GizmokitConvert.ConvertPower.#ctor(System.Double,System.Int32)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="power">index of Unit</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:viseware.GizmokitConvert.ConvertPower.ConvertTo(Gizmokit.Converter.Units.Power)" -->
+        <!-- Badly formed XML comment ignored for member "M:viseware.GizmokitConvert.ConvertPower.ConvertTo(System.Int32)" -->
+        <member name="M:viseware.GizmokitConvert.ConvertPower.ConvertUnit(Gizmokit.Converter.Units.Power)">
+            <summary>
+            Convert the value to given unit
+            </summary>
+            <param name="convertTo">unit toconvert to</param>
+            <returns>converted value</returns>
+        </member>
+        <member name="M:viseware.GizmokitConvert.ConvertPressure.#ctor(System.Double,Gizmokit.Converter.Units.Pressure)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="pressure">Type of Unit</param>
+        </member>
+        <member name="M:viseware.GizmokitConvert.ConvertPressure.#ctor(System.Double,System.Int32)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="pressure">index of Unit</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:viseware.GizmokitConvert.ConvertPressure.ConvertTo(Gizmokit.Converter.Units.Pressure)" -->
+        <!-- Badly formed XML comment ignored for member "M:viseware.GizmokitConvert.ConvertPressure.ConvertTo(System.Int32)" -->
+        <member name="M:viseware.GizmokitConvert.ConvertPressure.ConvertUnit(Gizmokit.Converter.Units.Pressure)">
+            <summary>
+            Convert the value to given unit
+            </summary>
+            <param name="convertTo">unit toconvert to</param>
+            <returns>converted value</returns>
+        </member>
+        <member name="M:viseware.GizmokitConvert.ConvertSpeed.#ctor(System.Double,Gizmokit.Converter.Units.Speed)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="speed">Type of Unit</param>
+        </member>
+        <member name="M:viseware.GizmokitConvert.ConvertSpeed.#ctor(System.Double,System.Int32)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="speed">index of Unit</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:viseware.GizmokitConvert.ConvertSpeed.ConvertTo(Gizmokit.Converter.Units.Speed)" -->
+        <!-- Badly formed XML comment ignored for member "M:viseware.GizmokitConvert.ConvertSpeed.ConvertTo(System.Int32)" -->
+        <member name="M:viseware.GizmokitConvert.ConvertSpeed.ConvertUnit(Gizmokit.Converter.Units.Speed)">
+            <summary>
+            Convert the value to given unit
+            </summary>
+            <param name="temperature">unit toconvert to</param>
+            <returns>converted value</returns>
+        </member>
+        <member name="M:viseware.GizmokitConvert.ConvertTemperature.#ctor(System.Double,Gizmokit.Converter.Units.Temperature)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="temperature">Type of Unit</param>
+        </member>
+        <member name="M:viseware.GizmokitConvert.ConvertTemperature.#ctor(System.Double,System.Int32)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="temperature">index of Unit</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:viseware.GizmokitConvert.ConvertTemperature.ConvertTo(Gizmokit.Converter.Units.Temperature)" -->
+        <!-- Badly formed XML comment ignored for member "M:viseware.GizmokitConvert.ConvertTemperature.ConvertTo(System.Int32)" -->
+        <member name="M:viseware.GizmokitConvert.ConvertTemperature.ConvertUnit(Gizmokit.Converter.Units.Temperature)">
+            <summary>
+            Convert the value to given unit
+            </summary>
+            <param name="temperature">unit toconvert to</param>
+            <returns>converted value</returns>
+        </member>
+        <member name="M:viseware.GizmokitConvert.ConvertTime.#ctor(System.Double,Gizmokit.Converter.Units.Time)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="time">Type of Unit</param>
+        </member>
+        <member name="M:viseware.GizmokitConvert.ConvertTime.#ctor(System.Double,System.Int32)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="time">index of Unit</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:viseware.GizmokitConvert.ConvertTime.ConvertTo(Gizmokit.Converter.Units.Time)" -->
+        <!-- Badly formed XML comment ignored for member "M:viseware.GizmokitConvert.ConvertTime.ConvertTo(System.Int32)" -->
+        <member name="M:viseware.GizmokitConvert.ConvertTime.ConvertUnit(Gizmokit.Converter.Units.Time)">
+            <summary>
+            Convert the value to given unit
+            </summary>
+            <param name="convertTo">unit toconvert to</param>
+            <returns>converted value</returns>
+        </member>
+        <member name="M:viseware.GizmokitConvert.ConvertVolume.#ctor(System.Double,Gizmokit.Converter.Units.Volume)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="volume">Type of Unit</param>
+        </member>
+        <member name="M:viseware.GizmokitConvert.ConvertVolume.#ctor(System.Double,System.Int32)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="volume">index of Unit</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:viseware.GizmokitConvert.ConvertVolume.ConvertTo(Gizmokit.Converter.Units.Volume)" -->
+        <!-- Badly formed XML comment ignored for member "M:viseware.GizmokitConvert.ConvertVolume.ConvertTo(System.Int32)" -->
+        <member name="M:viseware.GizmokitConvert.ConvertVolume.ConvertUnit(Gizmokit.Converter.Units.Volume)">
+            <summary>
+            Convert the value to given unit
+            </summary>
+            <param name="convertTo">unit toconvert to</param>
+            <returns>converted value</returns>
+        </member>
+        <member name="M:viseware.GizmokitConvert.ConvertWeight.#ctor(System.Double,Gizmokit.Converter.Units.Weight)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="weight">Type of Unit</param>
+        </member>
+        <member name="M:viseware.GizmokitConvert.ConvertWeight.#ctor(System.Double,System.Int32)">
+            <summary>
+            Set the values
+            </summary>
+            <param name="value">Value of the Unit</param>
+            <param name="weight">index of Unit</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:viseware.GizmokitConvert.ConvertWeight.ConvertTo(Gizmokit.Converter.Units.Weight)" -->
+        <!-- Badly formed XML comment ignored for member "M:viseware.GizmokitConvert.ConvertWeight.ConvertTo(System.Int32)" -->
+        <member name="M:viseware.GizmokitConvert.ConvertWeight.ConvertUnit(Gizmokit.Converter.Units.Weight)">
+            <summary>
+            Convert the value to given unit
+            </summary>
+            <param name="convertTo">unit toconvert to</param>
+            <returns>converted value</returns>
+        </member>
+    </members>
+</doc>
