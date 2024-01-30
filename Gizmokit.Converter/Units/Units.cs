@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 
-namespace Gizmokit.Converter.Units
+namespace UnitsConverter.Units
 {
     /// <summary>
     /// temparature units

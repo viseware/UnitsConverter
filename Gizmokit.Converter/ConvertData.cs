@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Gizmokit.Converter.Units;
+using UnitsConverter.Units;
 
-namespace Gizmokit.Converter
+namespace UnitsConverter
 {
     public class ConvertData
     {

@@ -1,7 +1,7 @@
 ﻿using System;
-using Gizmokit.Converter.Units;
+using UnitsConverter.Units;
 
-namespace Gizmokit.Converter
+namespace UnitsConverter
 {
     public class ConvertArea
     {
